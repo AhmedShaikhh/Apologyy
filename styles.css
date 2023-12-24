@@ -1,0 +1,82 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Patrick Hand', cursive;
+    line-height: 1.6;
+    background-color: #fde0dc;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #ff9aa2;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 3em;
+    color: #4a4a4a;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+.greeting {
+    font-size: 1.5em;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+.closing {
+    font-size: 1.2em;
+    color: #4a4a4a;
+    margin-top: 30px;
+}
+
+.signature {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.gallery {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffeaa7;
+    font-size: 0.9em;
+    color: #888;
+}
